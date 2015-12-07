@@ -1,0 +1,26 @@
+{
+  "name": "my-slack-app",
+  "description": "a simple chat app",
+  "main": "",
+  "authors": [
+    "Riley Gelwicks <riley.gelwicks@gmail.com>"
+  ],
+  "license": "GPL3",
+  "homepage": "https://github.com/sf-wdi-22-23/mean-stack-starter",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css-only": "~3.3.5",
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "ng-socket": "~0.1.2",
+    "socket.io": "https://raw.githubusercontent.com/socketio/socket.io-client/master/socket.io.js"
+  }
+}
